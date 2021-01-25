@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/untitled2",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "valeriaurinskaa",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-simplexml": "*",
+    "phpunit/phpunit": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Test\\TestApi\\": "app"
+    }
+  }
+}
